@@ -13,7 +13,7 @@ Use the scripts in the `scripts/test` directory to tun the tests with in differe
 Otherwise you can run the tests directly from the CL with the command:
 
 ```bash
-$
+$ mvn clean test
 ```
 
 ## Reports

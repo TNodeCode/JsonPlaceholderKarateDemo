@@ -2,7 +2,7 @@ Feature: Create Post
   Background:
     * configure ssl = true
     Given url api.url
-    And path "/posts"
+    And path paths.posts
 
   Scenario: Create new valid post
     Given request {userId: 1, title: "My new post", body: "My new post"}

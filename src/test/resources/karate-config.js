@@ -14,6 +14,7 @@ function fn() {
         },
         paths: {
             posts: '/posts',
+            comments: '/comments',
             users: '/users'
         }
     };
